@@ -1,0 +1,59 @@
+
+#login-alert {
+    z-index: 1;
+    position: absolute;
+}
+.inputfile {
+	width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}
+
+.pointer:hover {
+    cursor: pointer;
+}
+.pointer {
+    color: blue;
+}
+.posts{
+	width: 50%;
+	margin: 0 auto;
+}
+
+.navbar .navbar-nav li{
+	padding: 0 15px;
+}
+.navbar .navbar-nav{
+	margin-left: 20px;
+}
+.navbar .navbar-brand{
+	margin-left: 5rem;
+}
+.navbar .btn-group{
+	display: none;
+}
+
+@media only screen and (max-width: 992px) {
+	.navbar .navbar-nav li{
+		padding: 0;
+	}
+	.posts{
+		width: 90%;
+		
+	}
+  }
+
+  @media only screen and (max-width: 768px){
+	  #searchInput{
+		  display: none;
+	  }
+	  .navbar .btn-group{
+		display: inline-block;
+	}
+	  .navbar .navbar-brand{
+		  margin: 5px;
+	  }
+  }
